@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "env": {
+    "SERVICETITAN_ACCESS_TOKEN": "@servicetitan-access-token",
+    "SERVICETITAN_TENANT_ID": "@servicetitan-tenant-id", 
+    "SERVICETITAN_BOOKING_PROVIDER_ID": "@servicetitan-booking-provider-id",
+    "SERVICETITAN_API_BASE_URL": "@servicetitan-api-base-url"
+  },
+  "build": {
+    "env": {
+      "PYTHONPATH": "."
+    }
+  }
+}
